@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<!-- FOnts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+	<title>Single Page Educational Resource Hub Application</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#home">Acadex  </a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#featured">Featured</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#categories-section">Categories</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About Us</a>
+					</li>
+				</ul>
+				<span class="navbar-text">
+					Educational Resource Hub
+				</span>
+			</div>
+		</div>
+	</nav>
+	<!-- Home Section -->
+	<section id="home" class="fulLScreen">
+		<div id="introduction" class="container-fluid">
+			<div class="row">
+				<div class="col text-center pt-lg-5 mt-lg-5 mb-5">
+					<h1 id="title" class="pt-5 mt-5">“Fuel Your Future with Knowledge.”</h1>
+					<p class="text-white">Your one-stop destination to explore, learn, and master new skills. Whether you're diving into coding, brushing up on science, or exploring history — we've got the resources to guide your journey.</p>
+					<a type="button" class="btn btn-outline-light btn-lg mt-4"  href="#featured">Explore Now</a>
+				</div>
+			</div>	
+		</section>
+
+		<!-- Featured section -->
+		<section id="featured" class="py-5 bg-light fulLScreen">
+			<div class="container pt-lg-5 mt-lg-5 ">
+				<h2 class="text-center mb-4">🌟 Featured Learning Paths 🌟</h2>
+				<p class="text-center mb-5">Curated courses and resources to kickstart your journey in different fields of knowledge.</p>
+
+				<div class="row g-4">
+
+					<div class="col-md-4">
+						<div class="card h-100 shadow-sm">
+							<div class="card-body">
+								<h5 class="card-title">🚀 Full-Stack Web Development</h5>
+								<p class="card-text">Master HTML, CSS, JavaScript, React, Node.js, and databases through this structured 8-week track.</p>
+								<a href="#categories-section" class="btn btn-outline-primary">Start Learning</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card h-100 shadow-sm">
+							<div class="card-body">
+								<h5 class="card-title">🧠 Mastering Math Essentials</h5>
+								<p class="card-text">Strengthen your foundation in arithmetic, algebra, and calculus with visual and interactive lessons.</p>
+								<a href="#categories-section" class="btn btn-outline-primary">Explore Path</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card h-100 shadow-sm">
+							<div class="card-body">
+								<h5 class="card-title">💬 Communication Skills</h5>
+								<p class="card-text">Boost your English fluency, writing ability, and presentation confidence with real-world practice.</p>
+								<a href="#categories-section" class="btn btn-outline-primary">Improve Now</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- categories -->
+		<section id="categories-section" class="py-5 fulLScreen bg-dark">
+			<div class="container">
+				<h2 class="text-center mb-4 text-white">📚 Explore Categories</h2>
+				<p class="text-center mb-5 text-white">Browse by subject to find resources that match your interests and goals.</p>
+
+				<!-- Category List -->
+				<div id="categories" class="row g-4 justify-content-center">
+					<div class="col-md-3">
+						<div class="card text-center h-100 shadow-sm">
+							<div class="card-body">
+								<h5 class="card-title" >🌐 Web Development</h5>
+								<p class="card-text">HTML, CSS, JavaScript, and full-stack tools.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="card text-center h-100 shadow-sm">
+							<div class="card-body">
+								<h5 class="card-title">📊 Data Science</h5>
+								<p class="card-text">Python, Machine Learning, and Analytics.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="card text-center h-100 shadow-sm">
+							<div class="card-body">
+								<h5 class="card-title">🧮 Mathematics</h5>
+								<p class="card-text">Algebra, calculus, and problem-solving skills.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="card text-center h-100 shadow-sm">
+							<div class="card-body">
+								<h5 class="card-title">🗣️ Communication</h5>
+								<p class="card-text">English fluency, public speaking, writing.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Sample Resources -->
+				<div id="resources" class="mt-5">
+					<h3 class="mb-4 text-white text-center">Resources</h3>
+					<div class="row g-4">
+
+						<div class="col-md-4">
+							<div class="card h-100 border-0 shadow">
+								<div class="card-body">
+									<h5 class="card-title">Responsive Web Design</h5>
+									<p class="card-text">Learn to build mobile-friendly sites with CSS Flexbox and Grid.</p>
+									<a href="https://www.w3schools.com/html/html_responsive.asp" target="_blank" class="btn btn-sm btn-dark">View Resource</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card h-100 border-0 shadow">
+								<div class="card-body">
+									<h5 class="card-title">Intro to Python for Data</h5>
+									<p class="card-text">Start analyzing data with Python libraries like Pandas and NumPy.</p>
+									<a href="https://www.w3schools.com/python/python_intro.asp" target="_blank" class="btn btn-sm btn-dark">View Resource</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card h-100 border-0 shadow">
+								<div class="card-body">
+									<h5 class="card-title">Speaking with Confidence</h5>
+									<p class="card-text">Develop your presentation skills and overcome public speaking anxiety.</p>
+									<a href="https://www.speakconfidentenglish.com/" target="_blank" class="btn btn-sm btn-dark">View Resource</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section id="about" class="py-5 bg-light fulLScreen">
+			<div class="container">
+				<!-- Section Header -->
+				<div class="text-center mb-5">
+					<h2 class="fw-bold">About Acadex</h2>
+					<p class="lead text-muted">Empowering learners everywhere through accessible and innovative education.</p>
+				</div>
+
+				<div class="row g-4">
+					<!-- Mission Statement -->
+					<div id="mission" class="col-md-6">
+						<div class="p-4 shadow-sm bg-white rounded-4 h-100">
+							<h4 class="fw-semibold mb-3">Our Mission</h4>
+							<p>Our mission is to break down the barriers to quality education by providing curated learning paths, community support, and modern digital tools for self-paced growth.</p>
+							<p>We aim to foster curiosity, critical thinking, and lifelong learning by connecting students with engaging, real-world content.</p>
+							<p>Whether you're building your first website or mastering public speaking, EduNest is here to guide your journey.</p>
+						</div>
+					</div>
+
+					<!-- Contact Info -->
+					<div id="contact" class="col-md-6">
+						<div class="p-4 shadow-sm bg-white rounded-4 h-100">
+							<h4 class="fw-semibold mb-3">	Contact Information</h4>
+							<p class="mb-2"><strong>Email:</strong> <a href="mailto:support@edunest.com">support@edunest.com</a></p>
+							<p class="mb-2"><strong>Phone:</strong> +63 912 345 6789</p>
+							<p class="mb-2"><strong>Address:</strong> Manila, Philippines</p>
+							<p class="mb-2"><strong>Hours:</strong> Mon–Fri, 9am–6pm</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<footer class="bg-dark text-white text-center py-5">
+			<div class="container">
+				<small>&copy; 2025 All rights reserved.</small>
+			</div>
+		</footer>
+		<!-- bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
+	</html>
